@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1643990891 source:c:\users\manushri\documents\c_exercises\gridupdates_version2\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643998054 source:c:\users\manushri\documents\c_exercises\gridupdates_version4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
