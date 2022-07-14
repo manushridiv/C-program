@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    char alphabets[26];
+    int x;
+    char *pa;
+
+    pa = alphabets; //MUST initialize the pointer
+
+    for(x=0; x<26; x++)
+    {
+        *pa = x + 'A'; //the first element in the array
+        pa++; //moving on to the next index to fill
+    }
+
+    pa = alphabets; //re-initialize since for-loop would have caused changes
+
+
+
+    for(x=0; x<26; x++)
+    {
+        putchar(*pa);
+        pa++;
+    }
+}

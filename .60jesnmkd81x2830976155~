@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    //using pointers to create MULTIPLE string arrays
+    char *fruit[] = {
+        "watermelon",
+        "banana",
+        "pear",
+        "apple",
+        "coconut",
+        "grape",
+        "blueberry"
+    };
+
+    for(int x=0; x<7; x++)
+    {
+        //puts(*(fruit+x));
+        putchar(**(fruit+x));
+        putchar('\n');
+    }
+
+
+    //printing a normal char array
+    char fruits[] = "One good thing about music"; //a SINGLE string
+    int i = 0;
+
+    while (fruits[i] != '\0')
+    {
+        printf("%c", fruits[i]);
+        i++;
+    }
+
+
+    return(0);
+}

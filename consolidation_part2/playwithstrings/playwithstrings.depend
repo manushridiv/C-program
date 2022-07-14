@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1645027172 source:c:\users\manushri\documents\c_exercises\playwithstrings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

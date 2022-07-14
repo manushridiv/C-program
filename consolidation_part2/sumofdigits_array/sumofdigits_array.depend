@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644332047 source:c:\users\manushri\documents\c_exercises\sumofdigits_array\main.c
+	<stdio.h>
+	<stdlib.h>
+

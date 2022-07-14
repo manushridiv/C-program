@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char tictactoe[3][3];
+    int i,m;
+
+    for(i=0; i<3; i++)
+    {
+        for(m=0; m<3; m++)
+        {
+            tictactoe[i][m] = '.';
+        }
+    }
+
+    //tictactoe[1][1] = 'X';
+
+      for(int i=0; i<3; i++)
+    {
+        for(int m=0; m<3; m++)
+        {
+            printf("%c", tictactoe[i][m]);
+            putchar('\n');
+        }
+    }
+}
+

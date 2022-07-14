@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645979285 source:c:\users\manushri\documents\c_exercises\doublepointerpractice\main.c
+	<stdio.h>
+	<stdlib.h>
+
