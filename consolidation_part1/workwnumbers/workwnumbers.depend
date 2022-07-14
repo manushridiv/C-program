@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644075486 source:c:\users\manushri\documents\c_exercises\workwnumbers\main.c
+	<stdio.h>
+	<stdlib.h>
+

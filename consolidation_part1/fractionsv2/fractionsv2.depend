@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1644169078 source:c:\users\manushri\documents\c_exercises\fractionsv2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1643736405 source:c:\users\manushri\documents\c_exercises\workingwithifelse\main.c
+	<stdio.h>
+	<stdlib.h>
+
