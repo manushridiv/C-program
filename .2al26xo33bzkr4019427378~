@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int array[5];
+
+    for (int i=0; i<5; i++)
+    {
+        printf("Enter the value here: ");
+        scanf("%d", &array[i]);
+
+    }
+
+    for (int m=0; m<5; m++)
+    {
+        printf("%d\t", array[m]);
+    }
+
+    putchar('\n');
+
+    for(int x=0; x<5; x++)
+    {
+        printf("The address of #%d element is %p", x+1, &array[x]);
+        putchar('\n');
+    }
+}

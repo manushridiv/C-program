@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int highscore[3];
+
+    for (int i=0; i<=2; i++)
+    {
+        printf("Enter your highscore value here: ");
+        scanf("%d", &highscore[i]);
+        printf("Your #%d highscore value is %d.\n", (i+1), highscore[i]);
+    }
+
+    //program to print out the highest value of the list of high scores recorded
+
+    int display = highscore[0];
+    for (int m = 0; m<3; m++)
+    {
+        if(highscore[m]>display)
+        {
+            display = highscore[m];
+        }
+    }
+
+    printf("Your highest highscore is %d.\n", display);
+
+    int sum = 0;
+    for(int x=0; x<3; x++)
+    {
+        sum += highscore[x];
+    }
+
+    printf("The sum of all your highscores are %d", sum);
+
+    return(0);
+}

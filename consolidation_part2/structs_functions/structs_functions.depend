@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1645465559 source:c:\users\manushri\documents\c_exercises\structs_functions\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //using pointers to create MULTIPLE string arrays
+    char *fruit[] = {
+        "watermelon",
+        "banana",
+        "pear",
+        "apple",
+        "coconut",
+        "grape",
+        "blueberry"
+    };
+
+     int x;
+
+
+    for(x=0;x<7;x++)
+    {
+        int a=0;
+
+        while(putchar(*(*(fruit+x)+a++)))
+        {
+            ; //transferring the loop body into the while condition
+
+        }
+
+    }
+
+    return(0);
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644333546 source:c:\users\manushri\documents\c_exercises\sumofarrays_new\main.c
+	<stdio.h>
+	<stdlib.h>
+

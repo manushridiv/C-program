@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void showarray(int array[], int size)
+{
+    int x;
+
+    for(x=0;x<size;x++)
+        printf("%d ",array[x]);
+    putchar('\n');
+}
+
+void arrayinc(int array1[], int size)
+{
+    int i;
+
+    for (i=0; i<size; i++)
+    {
+        array1[i] = array1[i] + 1;
+        //printf("%d ", array1[i]);
+    }
+
+}
+
+int main()
+{
+    int n[] = {2, 3, 5, 7, 11};
+
+    puts("Here's your array:");
+    showarray(n, 5);
+    arrayinc(n, 5);
+    showarray(n, 5);
+    return(0);
+}
